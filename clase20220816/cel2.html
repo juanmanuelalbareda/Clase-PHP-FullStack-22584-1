@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <form action="cel1.html" method="GET">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <label for="provincia">Provincia</label>
+    <select name="provincia" id="provincia">
+      <option aria-placeholder="" hidden>--- Seleccionar una provincia ----</option>
+      <option value="1">Buenos Aires</option>
+      <option value="2" default>CABA</option>
+    
+    </select>
+    <br>
+    <label for="mes">Mes</label>
+    <input type="radio" name="mes" id="" value="1">Enero
+     <input type="radio" name="mes" id="" value="2">Febrero 
+    <br>
+    <label for="mascota">Mascota</label>
+    <input type="checkbox" name="mascota1" id="" value="1">Perro
+    <input type="checkbox" name="mascota2" id="" value="2">Gato
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
