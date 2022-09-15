@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+    margin: 10rem 1rem 1rem 1rem;
+    background-color: aquamarine;
+        }
+
+.divfotoprincipal {
+    margin: 1rem;
+    background-color: blue;
+
+}
+
+.fotoprincipal {
+    width: 40%;
+    margin: 1rem;
+border-radius: 3rem;
+}
+
+
+
+button {
+    cursor: pointer;
+}
+
+/* no me está funcionando el border radius hay q ver que pasa las jerarquías contra el div */
